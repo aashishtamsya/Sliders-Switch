@@ -10,5 +10,23 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UISlider *sliderRed;
+
+@property (weak, nonatomic) IBOutlet UISlider *sliderGreen;
+
+@property (weak, nonatomic) IBOutlet UISlider *sliderBlue;
+
+- (IBAction)redSliderAction:(id)sender;
+- (IBAction)greenSliderAction:(id)sender;
+- (IBAction)blueSliderAction:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *labelGreen;
+@property (weak, nonatomic) IBOutlet UILabel *labelRed;
+
+@property (weak, nonatomic) IBOutlet UILabel *labelBlue;
+
+
+@property (weak, nonatomic) IBOutlet UIView *viewColor;
+
 @end
 
