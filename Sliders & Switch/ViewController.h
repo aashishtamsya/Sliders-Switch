@@ -9,6 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    float previousRed;
+    float previousGreen;
+    float previousBlue;
+
+}
+
+@property (weak, nonatomic) IBOutlet UISwitch *switchReset;
+
+- (IBAction)resetSwitchAction:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UISlider *sliderRed;
 
