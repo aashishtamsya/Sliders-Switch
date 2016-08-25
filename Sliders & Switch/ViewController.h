@@ -9,22 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-{
-    CGFloat red;
-    CGFloat green;
-    CGFloat blue;
-    CGFloat alpha;
-}
-
-@property (weak, nonatomic) IBOutlet UISwitch *musicSwitch;
-
-- (IBAction)musicSwitchValueChanged:(id)sender;
-
-@property (weak, nonatomic) IBOutlet UILabel *musicLabel;
-
-
-
-
 
 @end
 
